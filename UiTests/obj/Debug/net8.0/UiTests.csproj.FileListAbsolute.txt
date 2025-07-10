@@ -160,3 +160,4 @@ C:\Users\Olhchm\Downloads\ProjectC#\theConnectedShop\UiTests\obj\Debug\net8.0\re
 C:\Users\Olhchm\Downloads\ProjectC#\theConnectedShop\UiTests\obj\Debug\net8.0\UiTests.pdb
 C:\Users\Olhchm\Downloads\ProjectC#\theConnectedShop\UiTests\obj\Debug\net8.0\UiTests.genruntimeconfig.cache
 C:\Users\Olhchm\Downloads\ProjectC#\theConnectedShop\UiTests\obj\Debug\net8.0\ref\UiTests.dll
+C:\Users\Olhchm\Downloads\ProjectC#\theConnectedShop\UiTests\obj\Debug\net8.0\UiTests.sourcelink.json
