@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "qYxnDon0M7o=",
+  "dgSpecHash": "ouY2SW7MRwU=",
   "success": true,
   "projectFilePath": "C:\\Users\\Olhchm\\Downloads\\ProjectC#\\theConnectedShop\\UiTests\\UiTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Olhchm\\.nuget\\packages\\coverlet.collector\\6.0.2\\coverlet.collector.6.0.2.nupkg.sha512",
+    "C:\\Users\\Olhchm\\.nuget\\packages\\dotnetseleniumextras.waithelpers\\3.11.0\\dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512",
     "C:\\Users\\Olhchm\\.nuget\\packages\\microsoft.applicationinsights\\2.22.0\\microsoft.applicationinsights.2.22.0.nupkg.sha512",
     "C:\\Users\\Olhchm\\.nuget\\packages\\microsoft.codecoverage\\17.9.0\\microsoft.codecoverage.17.9.0.nupkg.sha512",
     "C:\\Users\\Olhchm\\.nuget\\packages\\microsoft.net.test.sdk\\17.9.0\\microsoft.net.test.sdk.17.9.0.nupkg.sha512",

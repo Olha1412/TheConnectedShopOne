@@ -2,6 +2,7 @@ using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
+using SeleniumExtras.WaitHelpers;
 using System;
  
 namespace theConnectedShop
@@ -12,18 +13,17 @@ namespace theConnectedShop
         private IWebDriver _driver;
         private WebDriverWait _wait;
 
-        [OneTimeSetUp]
+
+        [SetUp]
         public void Setup()
         {
             var options = new ChromeOptions();
             options.AddArgument("--start-maximized");
             _driver = new ChromeDriver(options);
-            _wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(10));
-            
-        }
-        public void BeforeEach()
-        {
+            _wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(30));
+
             _driver.Navigate().GoToUrl("https://theconnectedshop.com/");
+            _wait.Until(driver => driver.Url.StartsWith("https://theconnectedshop.com"));
             _wait.Until(drv => drv.Title.Length > 0);
         }
  
@@ -33,7 +33,6 @@ namespace theConnectedShop
 
             const string expected =
                 "The Connected Shop - Smart Locks, Smart Sensors, Smart Home & Office";
-                // "The Connected Shop – We sell exclusive & trending items to help people live a better life";
 
 
             Assert.Multiple(() =>
@@ -45,17 +44,12 @@ namespace theConnectedShop
             });
         }
 
-        
 
         [TearDown]
-        public void AfterEach()
+
+        public void Teardown()
         {
             _driver.Manage().Cookies.DeleteAllCookies();
-
-        }
- 
-        [OneTimeTearDown]
-        public void Teardown() {
             _driver.Quit();
             _driver.Dispose();
         } 

@@ -13,6 +13,7 @@ C:\Users\Olhchm\Downloads\ProjectC#\theConnectedShop\UiTests\bin\Debug\net8.0\Ui
 C:\Users\Olhchm\Downloads\ProjectC#\theConnectedShop\UiTests\bin\Debug\net8.0\UiTests.runtimeconfig.json
 C:\Users\Olhchm\Downloads\ProjectC#\theConnectedShop\UiTests\bin\Debug\net8.0\UiTests.dll
 C:\Users\Olhchm\Downloads\ProjectC#\theConnectedShop\UiTests\bin\Debug\net8.0\UiTests.pdb
+C:\Users\Olhchm\Downloads\ProjectC#\theConnectedShop\UiTests\bin\Debug\net8.0\SeleniumExtras.WaitHelpers.dll
 C:\Users\Olhchm\Downloads\ProjectC#\theConnectedShop\UiTests\bin\Debug\net8.0\Microsoft.ApplicationInsights.dll
 C:\Users\Olhchm\Downloads\ProjectC#\theConnectedShop\UiTests\bin\Debug\net8.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
 C:\Users\Olhchm\Downloads\ProjectC#\theConnectedShop\UiTests\bin\Debug\net8.0\Microsoft.Testing.Extensions.Telemetry.dll
@@ -154,10 +155,10 @@ C:\Users\Olhchm\Downloads\ProjectC#\theConnectedShop\UiTests\obj\Debug\net8.0\Ui
 C:\Users\Olhchm\Downloads\ProjectC#\theConnectedShop\UiTests\obj\Debug\net8.0\UiTests.AssemblyInfoInputs.cache
 C:\Users\Olhchm\Downloads\ProjectC#\theConnectedShop\UiTests\obj\Debug\net8.0\UiTests.AssemblyInfo.cs
 C:\Users\Olhchm\Downloads\ProjectC#\theConnectedShop\UiTests\obj\Debug\net8.0\UiTests.csproj.CoreCompileInputs.cache
+C:\Users\Olhchm\Downloads\ProjectC#\theConnectedShop\UiTests\obj\Debug\net8.0\UiTests.sourcelink.json
 C:\Users\Olhchm\Downloads\ProjectC#\theConnectedShop\UiTests\obj\Debug\net8.0\UiTests.csproj.Up2Date
 C:\Users\Olhchm\Downloads\ProjectC#\theConnectedShop\UiTests\obj\Debug\net8.0\UiTests.dll
 C:\Users\Olhchm\Downloads\ProjectC#\theConnectedShop\UiTests\obj\Debug\net8.0\refint\UiTests.dll
 C:\Users\Olhchm\Downloads\ProjectC#\theConnectedShop\UiTests\obj\Debug\net8.0\UiTests.pdb
 C:\Users\Olhchm\Downloads\ProjectC#\theConnectedShop\UiTests\obj\Debug\net8.0\UiTests.genruntimeconfig.cache
 C:\Users\Olhchm\Downloads\ProjectC#\theConnectedShop\UiTests\obj\Debug\net8.0\ref\UiTests.dll
-C:\Users\Olhchm\Downloads\ProjectC#\theConnectedShop\UiTests\obj\Debug\net8.0\UiTests.sourcelink.json
