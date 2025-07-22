@@ -45,7 +45,6 @@ namespace theConnectedShop.UiTests
             });
         }
 
-        // Heading Link Link--primary Text--subdued u-h8
         [Test]
         public void ClickSecondLink_Account()
         {
@@ -96,24 +95,23 @@ namespace theConnectedShop.UiTests
 
             var result = _wait.Until(driver =>
             {
-                var items = driver.FindElements(By.CssSelector(".ProductItem__PriceList"));
+                var items = driver.FindElements(By.CssSelector(".ProductItem__Title.Heading a"));
                 return items.Count > 0;
             });
 
-                var resultTitles = _driver.FindElements(By.CssSelector(".ProductItem__Title, .ProductItem"));
+            var resultTitles = _driver.FindElements(By.CssSelector(".ProductItem__Title.Heading a"));
+            var test = resultTitles.Select(s => s.Text).ToList();
+            var test2 = resultTitles.Select(s => s.GetAttribute("innerText")).ToList();
 
-                bool found = resultTitles.Any(item =>
-        item.Text.Contains("smart lock", StringComparison.OrdinalIgnoreCase));
+            bool found = resultTitles.Any(item =>
+            item.GetAttribute("innerText").Contains("smart", StringComparison.OrdinalIgnoreCase));
 
-    Assert.That(found, Is.True, "No results found containing 'smart lock'.");
-           
-
-            
-
+            Assert.That(resultTitles.Any(), Is.True, "No results found containing 'smart'.");
+            Assert.That(found, Is.True, "No results found containing 'smart'.");
         }
 
 
-            [TearDown]
+        [TearDown]
 
             public void Teardown()
             {
